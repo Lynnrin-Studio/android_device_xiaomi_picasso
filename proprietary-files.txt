@@ -152,11 +152,11 @@ system_ext/lib/libfm-hci.so
 system_ext/lib64/vendor.qti.hardware.fm@1.0.so
 system_ext/lib/vendor.qti.hardware.fm@1.0.so
 
-# HotwordEnrollment - from gauguin-user 11 RKQ1.200826.002 V12.0.5.0.RJSMIXM
--product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk|179246aed7e4df0a0506d524f3e80040bf77134e
--product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk|b76f697c5ca97da3c5dcbe35df029ec7f3ff5766
+# HotwordEnrollment - from MIUI EU picasso-user 11 RKQ1.200826.002 V12.5.3.0.RGICNXM
+-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk|91c49e2f1f95fe76952eb55d7a936a997685b964
+-product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk|89b2c917c0c35489f10306f1627b2cf7cf6b59cf
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|563a58554d9c0dd0608552b644fbf74519a447bb
-system_ext/framework/com.android.hotwordenrollment.common.util.jar|0492cd3db2e253e23b78e56fa8ea7b3a4b15edeb
+system_ext/framework/com.android.hotwordenrollment.common.util.jar|bef92589e75a6da6043f85f4b9b0e85866429624
 
 # IMS
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml
