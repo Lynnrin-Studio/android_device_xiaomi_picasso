@@ -120,10 +120,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/dtb.img:dtb.img
 
-# Lights
-PRODUCT_PACKAGES += \
-    android.hardware.lights-service.qti-picasso
-
 # NFC
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
