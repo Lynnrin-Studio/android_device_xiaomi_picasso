@@ -158,7 +158,7 @@ PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.picasso
+    android.hardware.power-service.qti
 
 # Recovery
 BOARD_INCLUDE_RECOVERY_DTBO := true
