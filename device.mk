@@ -164,23 +164,9 @@ PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 PRODUCT_PACKAGES += \
     android.hardware.power-service.qti
 
-# Recovery
-BOARD_INCLUDE_RECOVERY_DTBO := true
-BOARD_USES_RECOVERY_AS_BOOT := false
-TARGET_NO_RECOVERY := false
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
-TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
-TARGET_USERIMAGES_USE_EXT4 := true
-TARGET_USERIMAGES_USE_F2FS := true
-TARGET_USES_MKE2FS := true
-
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
     RemovePackages
-
-# Soong
-PRODUCT_BOARD_PLATFORM := lito
-PRODUCT_USES_QCOM_HARDWARE := true
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
